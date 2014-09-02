@@ -133,7 +133,7 @@ juste avant le ~return res~:
 #+BEGIN_SRC python
     for i in range(0, K):
         for j in range(i + 1, K):
-            res[0] += t[i] * p[j]
+            res[N - 1] += t[N - 1 - i] * p[j]
 #+END_SRC
 
 1. Expliquer ce que cela va changer au comportement général du robot.
